@@ -1,0 +1,51 @@
+{
+  "name": "dawn-song-ai-mcp",
+  "version": "1.0.0",
+  "description": "Dawn Song AI Model Context Protocol Server for Autonomous AI Security & Safety, Deep Learning Privacy, Program Analysis & Decentralized Smart Contract Verification Protocol",
+  "tools": [
+    {
+      "name": "audit_deep_learning_adversarial_robustness",
+      "description": "Analyze neural model weights against adversarial prompt injections, model extraction, and training data poisoning",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "model_architecture": {
+            "type": "string"
+          },
+          "perturbation_budget": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "model_architecture"
+        ]
+      }
+    },
+    {
+      "name": "disburse_ai_safety_grant",
+      "description": "Trigger automated micro-escrow releases for privacy-preserving machine learning research, formal contract verification tools, and confidential smart contract infrastructure",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
